@@ -1,6 +1,6 @@
 # Project Title
 
-Check the duration of you lecture using python module.
+Check the duration of your lecture using python module.
 
 
 ### Prerequisites
@@ -36,6 +36,10 @@ using command line
 python final_length.py
 ```
 
+clone this repository and give the folder name and you are done.
+```
+git clone https://github.com/shankarj67/Course-Length.git
+```
 
 ## Usage
 
@@ -44,22 +48,18 @@ from moviepy.editor import VideoFileClip
 
 video = VideoFileClip("myHolidays.mp4").subclip(50,60)
 video.duration
-
-
 ```
-
-
-## Built With
-
-* [Python 3.5](https://www.python.org/downloads/release/python-350/) - programming language used
-* [moviepy 0.2.2.11](https://pypi.python.org/pypi/moviepy) - Video editing with Python
-
 
 ## Motivation
 
 * check how many hours you have to study for any course.
 * Make your Routine on the basis of this
 
+
+## Built With
+
+* [Python 3.5](https://www.python.org/downloads/release/python-350/) - programming language used
+* [moviepy 0.2.2.11](https://pypi.python.org/pypi/moviepy) - Video editing with Python
 
 
 ## License
